@@ -34,10 +34,18 @@
       </div>
 
       <h1>We are creatives</h1>
-      <img
-        src="./assets/images/mobile/image-transform.jpg"
-        alt="image d'oeuf"
-      />
+      <picture>
+        <source
+          media="(min-width: 1024px)"
+          srcset="./assets/images/desktop/image-transform.jpg"
+          class="image d'oeuf"
+        />
+
+        <img
+          src="./assets/images/mobile/image-transform.jpg"
+          alt="image d'oeuf"
+        />
+      </picture>
     </header>
     <main>
       <section>
@@ -49,10 +57,18 @@
             most of the marketing for you.
           </p>
           <a href="#">Learn more</a>
-          <img
-            src="./assets/images/mobile/image-stand-out.jpg"
-            alt="image d'un verre"
-          />
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/images/desktop/image-stand-out.jpg"
+              class="image d'un verre"
+            />
+
+            <img
+              src="./assets/images/mobile/image-stand-out.jpg"
+              alt="image d'un verre"
+            />
+          </picture>
         </article>
 
         <article>
@@ -66,10 +82,19 @@
         </article>
 
         <article>
-          <img
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/images/desktop/image-graphic-design.jpg"
+              class="image de cerise"
+            />
+
+            <img
             src="./assets/images/mobile/image-graphic-design.jpg"
             alt="image de cerise"
           />
+          </picture>
+          
           <h3>Graphic design</h3>
           <p>
             Great design makes you memorable. We deliver artwork that
@@ -78,10 +103,19 @@
           </p>
         </article>
         <article>
-          <img
+                    <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/images/desktop/image-photography.jpg"
+              class="image d'orange"
+            />
+
+            <img
             src="./assets/images/mobile/image-photography.jpg"
-            alt="image d'orange'"
+            alt="image d'orange"
           />
+          </picture>
+          
           <h3>Photography</h3>
           <p>
             Increase your credibility by getting the most stunning, high-quality
@@ -90,7 +124,7 @@
         </article>
       </section>
 
-      <section>
+      <section class="testimonials">
         <h2>Client testimonials</h2>
         <article>
           <img src="./assets/images/image-emily.jpg" alt="photo de Emily" />
@@ -122,22 +156,54 @@
       </section>
       <section class="four-image">
         <div>
-          <img
-            src="./assets/images/mobile/image-gallery-milkbottles.jpg"
-            alt="image de boutteille de lait"
-          />
-          <img
-            src="./assets/images/mobile/image-gallery-orange.jpg"
-            alt="image d'une orage"
-          />
-          <img
-            src="./assets/images/mobile/image-gallery-cone.jpg"
-            alt="image de cone de glace"
-          />
-          <img
-            src="./assets/images/mobile/image-gallery-sugar-cubes.jpg"
-            alt="image de carré de sucre"
-          />
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/images/desktop/image-gallery-milkbottles.jpg"
+              class="image de boutteille de lait"
+            />
+
+            <img
+              src="./assets/images/mobile/image-gallery-milkbottles.jpg"
+              alt="image de boutteille de lait"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/images/desktop/image-gallery-orange.jpg"
+              class="image d'une orage"
+            />
+
+            <img
+              src="./assets/images/mobile/image-gallery-orange.jpg"
+              alt="image d'une orage"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/images/desktop/image-gallery-cone.jpg"
+              class="image de cone de glace"
+            />
+
+            <img
+              src="./assets/images/mobile/image-gallery-cone.jpg"
+              alt="image de cone de glace"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./assets/images/desktop/image-gallery-sugarcubes.jpg"
+              class="image de carré de sucre"
+            />
+
+            <img
+              src="./assets/images/mobile/image-gallery-sugar-cubes.jpg"
+              alt="image de carré de sucre"
+            />
+          </picture>
         </div>
       </section>
     </main>

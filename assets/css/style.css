@@ -8,6 +8,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
+  text-align: center;
 }
 
 nav a {
@@ -61,7 +62,9 @@ button {
 h1, h2, h3{
   font-family: "Fraunces", serif;
 }
-
+p{
+    font-family: "Barlow", sans-serif;
+}
 .four-image div{
     display: grid;
     grid-template-columns: 1fr 1fr;

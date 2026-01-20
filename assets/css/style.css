@@ -1,0 +1,97 @@
+/* Reset simple */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+a{
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+:root {
+  --Grey-950: hsl(212, 27%, 19%);
+  --Grey-600: hsl(213, 9%, 39%);
+  --Grey-550: hsl(232, 10%, 55%);
+  --Grey-400: hsl(210, 4%, 67%);
+  --White: hsl(0, 100%, 100%);
+  --Red-400: hsl(7, 99%, 70%);
+  --Yellow-500: hsl(51, 100%, 49%);
+  --Green-800: hsl(167, 40%, 24%);
+  --Blue-800: hsl(198, 62%, 26%);
+  --Green-500: hsl(167, 52%, 57%);
+}
+
+/* style */
+h1, h2, h3{
+  font-family: "Fraunces", serif;
+}
+
+.four-image div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+.four-image div img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    background-color: var(--Green-500);
+    color: var(--Green-800);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 0;
+}
+footer div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+footer h2{
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+footer div:first-of-type ul{
+    padding: 0 2.5rem;
+}
+footer div:last-of-type ul{
+    padding: 0 6rem;
+}

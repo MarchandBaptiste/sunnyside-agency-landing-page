@@ -206,6 +206,7 @@ header nav ul li:last-child a {
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
+  padding-top: 1rem;
   padding-bottom: 1.5rem;
 }
 .testimonials .job {
@@ -247,7 +248,8 @@ footer {
 }
 footer div ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2rem;
   list-style: none;
   font-weight: 600;
 }
@@ -260,4 +262,30 @@ footer div:first-of-type ul {
 }
 footer div:last-of-type ul {
   padding: 0 6rem;
+}
+@media screen and (min-width: 1024px) {
+/* testimonials */
+.testimonials div{
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 4rem;
+  align-items: center;
+}
+.testimonials h2{
+  padding-top: 2rem;
+}
+.profil-picture{
+  width: 15%;
+}
+
+  /* last section */
+.four-image div{
+  display: flex;
+  flex-direction: row;
+}
+  /* footer */
+footer div ul{
+  gap: 3rem;
+}
+
 }
